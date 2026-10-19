@@ -1,0 +1,24 @@
+# Media stays out of git: originals are large and must never be rewritten.
+input/*
+!input/.gitkeep
+previews/*
+!previews/.gitkeep
+exports/*
+!exports/.gitkeep
+assets/**/*.mp4
+assets/**/*.mov
+assets/**/*.wav
+assets/**/*.mp3
+assets/**/*.m4a
+refs/**/*.mp4
+refs/**/*.mov
+
+# Working files
+work/
+project/**/renders/
+project/**/*.mp4
+project/**/*.mov
+project/**/.hyperframes/
+node_modules/
+__pycache__/
+.DS_Store
